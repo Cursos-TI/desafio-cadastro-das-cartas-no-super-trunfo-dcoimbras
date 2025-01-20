@@ -17,6 +17,28 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+   
+    int populacao;
+    float area;
+    int pib;
+    int pontos_turisticos;
 
-    return 0;
+printf("Digite a populacao \n");
+scanf("%d \n", populacao);
+printf("%d \n", populacao);
+printf("Digite a area \n");
+scanf("%f", area);
+printf("Digite o PIB \n");
+scanf("%d", pib);
+printf("digite a quantidade de pontos turisticos \n");
+scanf("%d", pontos_turisticos);
+printf("Cartas cadastrada com sucesso! \n");
+
+printf("São Paulo cod A01: População: %d" " - Area: %d" " - PIB: %d" " - Pontos Turisticos: %d", populacao, area, pib, pontos_turisticos);
+
+
+
+return 0;
 }
+    
+
